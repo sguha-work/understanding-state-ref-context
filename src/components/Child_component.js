@@ -1,5 +1,5 @@
 import React from "react";
-import GrandChild from "./GrandChild";
+import GrandChild from "./GrandChild_component";
 function Child() {
     console.log('child rendered');
     return (

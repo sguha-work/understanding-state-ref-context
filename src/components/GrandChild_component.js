@@ -1,6 +1,6 @@
 import React from "react";
 import { useContext } from "react";
-import CounterContext from "./Context";
+import CounterContext from "./../contexts/Counter_context";
 function GrandChild(props) {
     console.log('grand child rendered');
     const counter = useContext(CounterContext);
